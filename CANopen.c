@@ -50,7 +50,7 @@
 
 /* If defined, global variables will be used, otherwise CANopen objects will
    be generated with calloc(). */
-/* #define CO_USE_GLOBALS */
+#define CO_USE_GLOBALS
 
 
 #ifndef CO_USE_GLOBALS
